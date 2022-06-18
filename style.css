@@ -1,5 +1,10 @@
-@media screen {
-   
+@media only screen and (max-width: 680px) {
+    main {
+      flex-direction: column;
+      width: 100%;
+      margin: 10px 0;
+      padding: 0;
+    }
 }
 *{
     margin: 0;
@@ -32,11 +37,12 @@ main{
 h1{
     font-weight: 1000px;
     line-height: 1.1;
-    font-size: 35px;
+    font-size: 40px;
 }
 #first-para{
     margin-top: 30px;
-    font-size: 16px
+    font-size: 12px
+    
 }
 #top-border{
     font-size: 13px;
@@ -48,7 +54,13 @@ h1{
     width: 100%;
 }
 #thereafter{
-    color: #fff;
+    color: rgb(188, 185, 185);
+   
+}
+#try-for-7-days{
+    color: white;
+    font-weight: bold;
+   
 }
 #bottom-border{
     width: 100%;
@@ -85,8 +97,19 @@ input:focus {
     background-color: hsl(154, 59%, 70%);
 }
 #bottom-button{
-    color: hsl(246, 25%, 77%);
+    color: hsl(244, 22%, 85%);
     font-size: 8px;
     text-align: center;
     margin: 10px;
+}
+#click-on{
+    display: none;
+}
+br{
+    display: none;
+}
+#last-span{
+    color: hsl(0, 62%, 53%);
+    font-weight: bold;
+    font-size: 8px;
 }
